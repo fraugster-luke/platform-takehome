@@ -14,3 +14,5 @@ There are two parts to this task:
 
 **Task Two** - Once the data from the CSV file is inserted into the database, add some code the **insert.py** script that does the following:
 - Read the data back out from the database, format the data as JSON, and save the JSON file to your local disk. This may require some changes to the other config files as well! 
+
+Extra Extra Credit! Make your code handle exceptions! Can you run the script more than once? Can you update new data into the database? What else can you show? Have fun and good luck!
