@@ -1,0 +1,13 @@
+version: '3'
+services:
+  db:
+    image: "postgres" 
+    env_file:
+      - db/database.env 
+      
+  python:
+    build: app/.
+    depends_on:
+       - db
+          
+
